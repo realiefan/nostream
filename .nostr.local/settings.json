@@ -1,9 +1,9 @@
 {
   "info": {
-    "relay_url": "wss://nostream.localtest.me",
+    "relay_url": "wss://https://nostream-production-2c2a.up.railway.app/",
     "name": "nostream.localtest.me",
     "description": "A nostr relay written in Typescript.",
-    "pubkey": "00000000827ffaa94bfea288c3dfce4422c794fbb96625b6b31e9049f729d700",
+    "pubkey": "npub1cmmswlckn82se7f2jeftl6ll4szlc6zzh8hrjyyfm9vm3t2afr7svqlr6f",
     "contact": "operator@your-domain.com"
   },
   "network": {
@@ -20,7 +20,7 @@
         "descripton": "Admission fee in msats (1000 msats = 1 satoshi)",
         "amount": 1000000,
         "whitelists": {
-          "pubkeys": ["replace-with-your-pubkey"]
+          "pubkeys": ["npub1cmmswlckn82se7f2jeftl6ll4szlc6zzh8hrjyyfm9vm3t2afr7svqlr6f"]
         }
       }],
       "publication": [
@@ -29,7 +29,7 @@
           "description": "Publication fee in msats (1000 msats = 1 satoshi)",
           "amount": 100,
           "whitelists": {
-            "pubkeys": ["replace-with-your-pubkey"]
+            "pubkeys": ["npub1cmmswlckn82se7f2jeftl6ll4szlc6zzh8hrjyyfm9vm3t2afr7svqlr6f"]
           }
         }
       ]
